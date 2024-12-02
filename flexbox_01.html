@@ -1,0 +1,220 @@
+<!--comenzamos creando la estrucura basica
+de un documento html escribiendo <html y 
+teclenado enter para autocompletar, lo que creara
+la estructura que se llenara como se menciona a continuación...-->
+
+<!--indica el tipo de docuemnto-->
+<!DOCTYPE html> 
+<!--dentro de l etiqueta html esta todo el contenido del documento html-->
+<html> 
+<!------------encabezado de pagina----------->
+<!--dentro de la etiqueta head esta el encabezado del documento html-->
+<head> Alumno: Carlos Iván Tovar Hernández, Universidad Autónoma de Tamaulipas. Asignatura: Realidad Aumentada<head> 
+	<title>Las consecuencias negativas de la desaparición del dinero en efectivo</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
+</head>
+
+<!------------body de pagina----------->  
+<!--dentro de la estiqueta body tipicamente esta todo lo que contendra página-->
+<body> 
+
+
+	<!--dentro de la estiqueta header esta todo lo que sera el encanbezado de la página, pudiendo colocarse dentro del body o antes del body-->
+	<header class='menu-container' id="inicio">
+
+      <div class='identificador'>
+        <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
+       <img src="imagenes/logo.png">
+      </div>
+
+      <div class='ligas-secciones'>
+      	<!----modificar nombre de la seccion acorde a la necesidad----->
+          <a href="#secc1">Exclusión financiera</a>
+          <a href="#secc2">Privacidad y vigilancia</a>
+          <a href="#secc3">Impacto en pequeños comercios</a>
+          <a href="#secc4">Vulnerabilidad a fallos o ciberataques</a>
+        </div>
+
+    </header>
+
+ 
+
+
+	<!--contenedor que agrupa todos los contenedores que tienen los contenidos de cada sección que aprecen entre el encabezado y pie de pagina-->
+    <main class="secciones">
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc1">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Exclusión financiera</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>En México, la exclusión financiera sigue siendo una problemática significativa, especialmente para las poblaciones rurales y de bajos ingresos. Según datos del Instituto Mexicano para la Competitividad A.C. (IMCO) basados en la CNBV, sólo 112.9 unidades económicas de cada 1,000 cuentan con una Terminal Punto de Venta (TPV), reflejando las limitaciones en la adopción de sistemas digitales de pago. Además, el acceso a sucursales bancarias es reducido: apenas 1.49 sucursales de banca múltiple por cada 10,000 adultos. Estas cifras evidencian que una transición hacia un mundo sin efectivo podría acentuar la brecha entre quienes tienen acceso a servicios financieros digitales y quienes dependen exclusivamente del dinero físico para sus transacciones diarias.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La preferencia por el efectivo es especialmente notable en las personas con menores niveles de escolaridad. Según el IMCO, el 86% de los mexicanos con educación primaria prefieren usar efectivo, en contraste con el 34% de quienes tienen educación superior. Para muchas comunidades rurales, el dinero en efectivo no sólo es una herramienta de pago, sino también una forma de gestionar la economía familiar en un contexto donde las tarjetas de débito o crédito son inalcanzables. Sin infraestructura bancaria adecuada y con una baja penetración de tecnologías digitales, estas poblaciones enfrentarían dificultades graves para realizar compras, pagar servicios o acceder a recursos básicos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Por otro lado, la desaparición del dinero en efectivo plantea serias preocupaciones sobre la privacidad. En un sistema totalmente digital, cada transacción queda registrada, facilitando el monitoreo por parte de gobiernos o corporaciones. Según el IMCO, muchas personas de bajos ingresos asocian las tarjetas de crédito más con "comprar sin tener dinero" que con seguridad o eficiencia. Aunque la digitalización podría mejorar la seguridad financiera, también abre la puerta a un nivel de vigilancia intrusiva que pone en riesgo la autonomía y la privacidad de los ciudadanos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>La eliminación del efectivo podría traer beneficios en términos de eficiencia y seguridad, pero también implica grandes desafíos. Las disparidades en la infraestructura financiera, la falta de inclusión de las comunidades más vulnerables y las preocupaciones sobre la privacidad y la vigilancia digital son barreras significativas. Es crucial que cualquier transición hacia un sistema sin efectivo sea acompañada de políticas que garanticen la equidad y la protección de los derechos de los ciudadanos, especialmente de los sectores más desprotegidos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
+    		<div class="imgs-secc-1">
+    			<!--contenedor con las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+    			</div>
+    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
+    			<div class="par-imgs-escritorio">
+    				<!--texto para imagen a la izquierda-->
+	        		<p>La incertidumbre y exclusión que enfrentan quienes no tienen acceso a tecnología en un mundo sin dinero en efectivo.</p>
+	        		<!--texto para imagen a la derecha-->
+        		</div>
+        		<!--contenedor con las dos imagenes en su version mobile-->
+        		<div class="par-imgs-mobile">
+    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	        		<img src="imagenes/img1a.png" title="Img 1a">
+	        		<!--texto para la imagen-->
+	        		<p>La incertidumbre y exclusión que enfrentan quienes no tienen acceso a tecnología en un mundo sin dinero en efectivo.</p>
+	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+    			</div>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc2">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Privacidad y vigilancia</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La privacidad digital es un tema cada vez más relevante en un mundo donde nuestras actividades en línea son rastreadas y monitoreadas constantemente. Según un análisis de la revista Stanford Social Innovation en colaboración con el Tecnológico de Monterrey, la recopilación masiva de datos personales por parte de gobiernos y empresas ha transformado nuestra interacción digital en una fuente de vigilancia continua. Cada transacción digital deja un rastro, y este rastro puede ser utilizado para analizar y controlar aspectos de nuestras vidas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Un problema central es la falta de transparencia en las políticas de privacidad de las plataformas digitales. Un estudio citado por la publicación revela que leer todas las políticas de privacidad de las aplicaciones y sitios que usamos en un año tomaría 244 horas. Esta falta de claridad genera confusión en los usuarios, ya que el 60% de las personas desconoce cómo se gestionan sus datos en línea. Las redes sociales y los sistemas de pago digital recopilan datos sobre nuestras preferencias, ubicaciones y hábitos, convirtiendo nuestra información más íntima en un producto comercializable.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>El control gubernamental también se intensifica en un sistema dominado por transacciones digitales. Al eliminar el dinero en efectivo, todas las actividades económicas pasan a ser registradas, lo que podría ser utilizado para monitorear a los ciudadanos. Este nivel de vigilancia tiene implicaciones preocupantes para la privacidad y la libertad individual. Por ejemplo, el uso de datos digitales en algunos estados de Estados Unidos tras la anulación del derecho federal al aborto ha servido para rastrear e identificar a quienes buscan información sobre salud reproductiva.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Las empresas no se quedan atrás en este ecosistema de vigilancia. Gigantes tecnológicos como Facebook, Amazon y Google han desarrollado un modelo de negocio basado en la venta de datos personales a intermediarios, lo que Citron denomina Spying Inc.. Estos datos se utilizan para segmentar publicidad, pero también pueden caer en manos equivocadas, generando riesgos como discriminación, explotación o exposición de información sensible. Un ejemplo crítico es el caso de Grindr, que vende datos sobre la salud y preferencias sexuales de sus usuarios a terceros.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>El impacto psicológico de esta vigilancia es significativo. La ansiedad generada por la posibilidad de que nuestros datos sean utilizados de forma indebida afecta la confianza de los usuarios en las plataformas digitales. Además, la falta de regulación adecuada deja a los individuos vulnerables a prácticas abusivas. Según Danielle Keats Citron, la privacidad íntima debería ser un derecho civil para proteger a los ciudadanos de las invasiones digitales y garantizar su autonomía.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>el aumento de las transacciones digitales plantea serios desafíos para la privacidad. Las leyes actuales no han evolucionado al mismo ritmo que la tecnología, dejando a las personas expuestas a un monitoreo constante por parte de gobiernos y empresas. Como propone The Fight for Privacy, es fundamental que los legisladores implementen normas claras para proteger los datos personales y garantizar que las estructuras de poder no vulneren la privacidad individual en esta era digital.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img2.png" title="Img 2">
+        		<!--texto para la imagen-->
+        		<p> La vigilancia constante y el control que gobiernos y empresas ejercen en un mundo cada vez más digitalizado, donde cada acción deja un rastro que puede ser monitoreado y utilizado</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc3">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Impacto en pequeños comercios</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>La transición hacia una economía completamente digital plantea serios desafíos para los pequeños negocios y el comercio informal, particularmente en países como México. Según un estudio de la Escuela de Negocios de Stanford y el Banco Mundial, el 83% de las microempresas en el país no aceptan pagos electrónicos, a pesar de la disponibilidad de tecnologías accesibles como lectores de tarjetas económicos y aplicaciones móviles. Este fenómeno evidencia barreras más profundas que van más allá del acceso a herramientas tecnológicas, revelando factores económicos y estratégicos que limitan su adopción.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Una de las principales razones por las que los pequeños negocios evitan los pagos electrónicos son las comisiones asociadas. Estas tarifas, que suelen oscilar entre el 3% y el 5% por transacción, representan una pérdida directa en cada venta, lo que obliga a los dueños a reconsiderar sus estrategias de precios. En un entorno donde las ganancias promedio mensuales son limitadas, incluso costos aparentemente bajos pueden ser significativos. Además, muchos comerciantes perciben una baja demanda de pagos electrónicos entre sus clientes, especialmente en comunidades de bajos ingresos donde el uso de efectivo sigue siendo predominante.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>La pandemia de COVID-19 acentuó la necesidad de modernizar los sistemas de pago en pequeños negocios, debido a los riesgos sanitarios asociados con el manejo de efectivo. Sin embargo, la adopción sigue siendo un dilema del "huevo o la gallina": los clientes no utilizan métodos de pago electrónico porque los negocios no los aceptan, y los negocios no los implementan porque creen que los clientes no los prefieren. Esta desconexión perpetúa el uso del efectivo, limitando el potencial de estos negocios para competir en una economía cada vez más digitalizada.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Para abordar estas barreras, los investigadores han identificado estrategias prometedoras, como ofrecer descuentos temporales en las comisiones para pagos electrónicos y campañas de concienciación dirigidas tanto a comerciantes como a clientes. Por ejemplo, colocar letreros que indiquen la aceptación de tarjetas puede ayudar a cambiar las percepciones erróneas sobre la falta de demanda. Adicionalmente, herramientas como tutoriales en video y soporte técnico a través de plataformas como WhatsApp facilitan la transición tecnológica para los dueños de negocios, especialmente aquellos con poca experiencia técnica.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Las soluciones implementadas en programas piloto han mostrado resultados alentadores. En Ciudad de México, intervenciones diseñadas para modernizar pequeños negocios mejoraron sus ventas entre un 15% y 20%. Esto demuestra que, con el enfoque adecuado, es posible integrar a los pequeños comercios en la economía digital, aumentando su competitividad y reduciendo su vulnerabilidad frente a crisis como la pandemia.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>En conclusión, los pequeños negocios enfrentan desafíos estructurales para adoptar los pagos electrónicos, pero con intervenciones dirigidas, estas barreras pueden superarse. La digitalización no solo beneficiaría a los comerciantes al facilitar el flujo de caja y el acceso a crédito, sino que también fomentaría la inclusión financiera en comunidades vulnerables. Es fundamental que las políticas públicas y los proveedores de servicios financieros trabajen en conjunto para garantizar que estos negocios puedan prosperar en un mundo cada vez más digitalizado.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img3.png" title="Img 3">
+        		<!--texto para la imagen-->
+        		<p>Un letrero de 'Sólo pagos digitales', ilustra cómo la falta de inclusión tecnológica puede alejar a los clientes y afectar la economía de los pequeños negocios.</p>
+    		</div>
+
+    	</div>
+
+    	<!--contenedor para contenidos de cada sección-->
+    	<div class='seccion-contenedor' id="secc4">
+    		<!--contenedor para el texto de cada sección-->
+    		<div class="texto-secc">
+    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
+		        <h1>Vulnerabilidad a fallos o ciberataques</h1>
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>LLa dependencia total de sistemas digitales plantea graves riesgos para los pequeños comercios, especialmente frente a fallos tecnológicos y ciberataques. Según datos de la Organización de Estados Americanos (OEA), los ciberataques han crecido en frecuencia y sofisticación, afectando tanto a grandes instituciones financieras como a pequeños negocios. Estas amenazas incluyen fraudes en línea, interrupciones de servicios y la apropiación de datos sensibles, que pueden comprometer no solo las operaciones comerciales sino también la confianza de los clientes.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
+		        <p>Uno de los mayores desafíos es la limitada capacidad de los pequeños comercios para invertir en ciberseguridad. Mientras las grandes empresas destinan recursos significativos a la protección digital, los pequeños negocios carecen de infraestructura y personal especializado para enfrentar ciberataques. Esto los convierte en blancos fáciles para delincuentes, que pueden usar técnicas como la publicidad maliciosa o el ransomware, paralizando sus operaciones y generando pérdidas económicas significativas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Además, la digitalización de los pagos amplifica el riesgo para estos comercios. Al depender de plataformas electrónicas para las transacciones, cualquier interrupción del servicio, ya sea por fallos técnicos o ciberataques, puede dejar a los pequeños comercios incapacitados para operar. Esto no solo afecta sus ingresos inmediatos, sino que también puede generar desconfianza en sus clientes, quienes podrían optar por negocios que ofrezcan mayor seguridad y fiabilidad en sus sistemas.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Las amenazas no se limitan a los fraudes financieros; el uso indebido de datos personales también es un problema crítico. Los pequeños comercios, al manejar información de sus clientes, como números de tarjeta y datos personales, pueden convertirse en fuentes involuntarias de filtraciones si no cuentan con medidas adecuadas de protección. Esto expone tanto a los negocios como a los consumidores a consecuencias graves, como el robo de identidad o el fraude financiero.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Frente a este panorama, es crucial que los pequeños comercios reciban apoyo en la implementación de medidas básicas de ciberseguridad. Iniciativas como la formación en prácticas seguras, el acceso a software de protección asequible y el fortalecimiento de la cooperación entre sectores público y privado pueden marcar la diferencia. Asimismo, los gobiernos deben asumir un papel activo en la regulación y creación de políticas que reduzcan la brecha tecnológica entre pequeños y grandes actores económicos.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+		        <p>Los fallos tecnológicos y ciberataques representan una amenaza creciente para los pequeños comercios, exacerbando su vulnerabilidad en un entorno digitalizado. Es esencial que los responsables políticos y las organizaciones financieras prioricen el desarrollo de soluciones adaptadas a sus necesidades, para que puedan operar con seguridad en un mercado cada vez más digital. Esto no solo protegerá a los pequeños negocios, sino que también fomentará un ecosistema comercial más equilibrado y sostenible.</p>
+		        <br><!--etiqueta para un brinco de renglón-->
+    		</div>
+    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
+    		<div class="contenedor-imagen-secc4">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img4.png" title="Img 4">
+        		<!--texto para la imagen-->
+        		<p>En un mundo cada vez más digitalizado, la vulnerabilidad de los pequeños negocios frente a ciberataques y fallos tecnológicos se ha convertido en un desafío crítico.</p>
+    		</div>
+
+    	</div>
+
+    </main>
+
+    <!------------pie de pagina----------->
+    <!--dentro de la etiqueta footer esta todo lo que sera el pie de página, pudiendo colocarse dentro del body o despues del body-->
+	<footer>
+	   
+	    <div class='footer-item'>
+	      <!----modificar el href para que dirija una pagina especifica de facebook----->
+	      <a href="https://www.facebook.com/1CarlosTovar">
+	      	<img src="imagenes/fbk.png" title="Facebook">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de twitter----->
+	      <a href="https://x.com/carlostovarmx">
+	      	<img src="imagenes/twt.png" title="Twitter">
+	      </a>
+	      <!----modificar el href para que dirija una pagina especifica de instagram----->
+	      <a href="http://instagram.com/carlostovarh/">
+	      	<img src="imagenes/inst.png" title="Instagram">
+	      </a>
+	    </div>
+
+	    <div class="copyright">
+	    	<!----modificarlo con datos o mensaje propio----->
+	      <p style="">Todos los derechos a sus respectivos autores. Con atento agradecimiento al IMCO, Stanford Social Innovation Review - Tec de Mty, MASTERCARD y a la Organización de los Estados Americanos.
+</p>
+	    </div>
+	    
+	  </footer>
+	<!------------------------------------>
+
+	<!---------enlace que regresa al inicio de la pagina--------->
+	<!--dentro de la etiqueta "a" de tipo enlace esta la imagen que actua como icono que regresa al inicio de la página-->
+	    <a class="ir-arriba" title="Volver arriba" href="#inicio">
+	    	<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+	      	<img src="imagenes/flecha-arriba.png">
+	    </a>
+
+</body>
+
+</html>
